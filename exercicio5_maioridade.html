@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<title>Exercício Javascript 5 - Maioridade</title>
+	</head>
+    <body class="mx-auto my-5 rounded" style="width: 36rem;">
+        <div class="card text-center" style="width: 36rem;">
+            <div class="card-body">
+                <h1 class="card-title">Verifique quem é maior de idade</h1>
+                <label class="card-text" for="nome">Nome:</label>
+                <input type="text" class="w-25" name="nome" id="nome"><br>
+                <label class="card-text" for="idade">Idade:</label>
+                <input type="number" class="w-25" name="idade" id="idade"><br>
+            </div>
+            <button id="adicionar" class="btn btn-secondary btn-sm w-25 mx-auto">+</button><br>
+            <div id="lista-nomes-idades"></div>
+            <button class="btn btn-primary w-50 mx-auto" id="verificar">Verificar</button>
+            <p>As pessoas maiores de idade são <span id="quantidade-maiores"></span>:<span id="resultado-maiores"></span></p>
+            <p>As pessoas menores de idade são <span id="quantidade-menores"></span>:<span id="resultado-menores"></span></p>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="exercicio5_maioridade.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</html>
